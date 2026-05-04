@@ -2,12 +2,6 @@ extends Node2D
 
 @onready var grid_node = $Grid 
 
-var shapes = [
-	preload("res://src/modules/tetromino/tshape.gd"),
-	preload("res://src/modules/tetromino/lshape.gd"),
-	preload("res://src/modules/tetromino/ishape.gd")
-]
-
 func _ready():
 	randomize() # Her açılışta farklı blok sırası
 	spawn_new_block()
