@@ -1,5 +1,6 @@
 .import/
 .export/
 .export.cfg
+*.translation
 *.tmp
 *.log
